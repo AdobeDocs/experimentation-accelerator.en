@@ -22,19 +22,16 @@ The **Journey Optimizer Experimentation Accelerator** is a powerful tool designe
 Key benefits include:
 
 * **Faster Experimentation**: Run adaptive, always-on tests with models that adjust over time.
-
 * **Unified Platform**: Manage all experiments from Adobe Target and Journey Optimizer in one place.
-
 * **AI-Driven Insights**: Automatically surface key findings, performance drivers, and new opportunities.
-
 * **Smarter Targeting**: Use behavioral and content data to prioritize high-impact experiments.
-
 * **KPI Monitoring**: Track metrics like lift and confidence across experiments.
-
 * **Seamless Collaboration**: Share results easily and manage team roles with real-time alerts.
 
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
+<table style="table-layout:fixed">
+<tr style="border: 0; text-align: center;">
 <td><a href="../start/experiment-accelerator-access.md"><img width="70%" alt="get started" src="../assets/do-not-localize/a-b-test.png"></a><br/><a href="../start/experiment-accelerator-access.md">Get started with the Journey Optimizer Experimentation Accelerator</a></td>
 <td><a href="../start/experiment-accelerator-best-practices.md"><img width="70%" alt="best practices" src="../assets/do-not-localize/best-practices.png"></a><br/><a href="../start/experiment-accelerator-best-practices.md">Journey Optimizer Experimentation Accelerator best practices</a></td>
 <td><a href="../track/experiment-accelerator-monitor.md"><img width="70%" alt="track" src="../assets/do-not-localize/track.png"></a></br><a href="../track/experiment-accelerator-monitor.md">Track and monitor the performance of your experiments</a></td>
-</tr></table>
+</tr>
+</table>
