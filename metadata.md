@@ -5,7 +5,7 @@ product: Journey Optimizer
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experimentation-accelerator.en
-hide: yes
+index: true
 ---
 
 # Metadata for internal use
