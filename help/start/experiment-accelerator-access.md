@@ -29,7 +29,7 @@ To use **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, you need 
 * **[!UICONTROL View Experiments]**
 * **[!UICONTROL Manage Experiment Metada]**
 
-+++ Learn how to assign Experiment related permissions
++++ Learn how to assign Experiment related permissions with an Adobe Experience Platform or Adobe Journey optimizer license
 
 1. In the **[!DNL Permissions]** product, go to the **[!UICONTROL Roles]** tab and select the desired **[!UICONTROL Role]**.
 
@@ -52,6 +52,48 @@ To assign this role to new users:
     If the user was not previously created, refer to [this documentation](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 The user will receive an email with instructions to access your instance.
+
++++
+
+</br>
+
++++ Learn how to assign Experiment related permissions with Adobe Target license
+
+1. Open the **[Admin Console](http://adminconsole.adobe.com/)**.
+
+1. In **[!UICONTROL Products]**, choose **[!UICONTROL Adobe Experience Platform]**.
+
+1. Click **[!UICONTROL New Profile]**.
+
+   ![](assets/permission-target.png)
+
+1. Enter a **[!UICONTROL Name]** and **[!UICONTROL Description]** for the profile, then click **[!UICONTROL Save]**.
+
+1. Open your newly created **[!UICONTROL Profile]** and navigate to the **[!UICONTROL Permissions]** tab.
+
+1. Click ![](assets/do-not-localize/Smock_Edit_18_N.svg) next to the **[!UICONTROL experimentation-accelerator]** permission.
+
+   ![](assets/permission-target-1.png)
+
+1. Add the permissions this profile should have, such as **[!UICONTROL View Experiments]** and **[!UICONTROL Manage Experiment Metadata]**, then click **[!UICONTROL Save]**.
+
+    >[!TIP]
+    >
+    > Create separate profiles when users need different access levels. For example, create an **[!UICONTROL Experimentation Accelerator Viewer]** profile with only **[!UICONTROL View Experiments]**, and an **[!UICONTROL Experimentation Accelerator Editor]** profile with both **[!UICONTROL View Experiments]** and **[!UICONTROL Manage Experiment Metadata]**.
+
+   ![](assets/permission-target-2.png)
+
+1. From the **[!UICONTROL Permissions]** tab, select **[!UICONTROL Sandboxes]**.
+
+1. Add the sandboxes where users should be able to use Journey Optimizer Experimentation Accelerator, then click **[!UICONTROL Save]**.
+
+1. Open the **[!UICONTROL Users]** tab, then click **[!UICONTROL Add users]**.
+
+   ![](assets/permission-target-3.png)
+
+1. Add the users who should receive this access, then click **[!UICONTROL Save]**.
+
+Users added to this profile can now access Journey Optimizer Experimentation Accelerator from the app switcher.
 
 +++
 
