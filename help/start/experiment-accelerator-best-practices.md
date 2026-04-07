@@ -72,7 +72,7 @@ Participants are randomly assigned to one version, known as a variant, and their
 |Bounce Rate|The percentage of users who leave quickly without taking action|May signal a poor fit or confusing experience|
 |Time on Page|The amount of time users spend on a specific part of the experience|Can reflect depth of interest or complexity|
 |Revenue per Visitor (RPV)|Average revenue earned per user|Often used in commerce-focused experiments|
-|Retention Rate|The percentage of users who return or remain engaged over time|Useful for long-term value assessments| 
+|Retention Rate|The percentage of users who return or remain engaged over time|Useful for long-term value assessments|
 
 ## What makes a good experiment?
 
