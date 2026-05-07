@@ -38,6 +38,7 @@ To access and monitor your experiments, select your previously configured experi
 The experiment detail page is split into the following section:
 
 * [Experiment Outcome](#experiment-outcome)
+* [Primary metric](#change-primary-metric)
 * [Hypothesis](#hypothesis)
 * [Details](#details)
 * [Opportunities](#opportunities)
@@ -49,6 +50,34 @@ The experiment detail page is split into the following section:
 ![](assets/experiment-monitor-outcome.png)
 
 The **[!UICONTROL Experiment outcome]** gives you a quick view of the winning variation in your experiment.
+
+### Change the primary metric {#change-primary-metric}
+
+If your experiment does not have a primary metric configured, Journey Optimizer Experimentation Accelerator prompts you to set one before insights or opportunities can be generated.
+
+To change the primary metric for an existing experiment, follow these steps:
+
+1. Open the experiment details page, then click **[!UICONTROL Select Primary Metric]** or **[!UICONTROL Edit]**.
+
+   ![](assets/primary-metric-1.png)
+
+1. Select one metric from the reporting source configured when the test was created in Adobe Target or Adobe Journey Optimizer.
+1. Use search to find a metric by name, or use the filter to view metrics already used in active experiments.
+1. Save your selection.
+
+Only one metric can be imported at a time. The selected metric is saved as the primary metric for that experiment.
+
+Changing the primary metric updates it only in Journey Optimizer Experimentation Accelerator. It does not update the metric directly in Adobe Target or Adobe Journey Optimizer.
+
+When you change the primary metric, previously generated insights and opportunities are cleared and regenerated. During regeneration, the following message is displayed:
+
+`Opportunities are being regenerated based on the selected metric. Updates will appear soon.`
+
+The available metrics depend on the reporting source configured for the experiment. For example, if Customer Journey Analytics is selected as the reporting source in Adobe Target, only Customer Journey Analytics metrics are available.
+
+If your organization uses only Adobe Target as the reporting source, the primary metric cannot be changed after the test is published.
+
+Only users with the **[!UICONTROL Manage Experiment Metadata]** permission can change the primary metric.
 
 ### Set up {#set-up}
 
