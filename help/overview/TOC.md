@@ -9,6 +9,7 @@ user-guide-description: Use Experimentation accelerator to track and monitor you
 + [Journey Optimizer Experimentation Accelerator ](overview.md)
 + Get started{#get-started}  
   + [Access Journey Optimizer Experimentation Accelerator](../start/experiment-accelerator-access.md)
+  + [Integrate Adobe Target with Experimentation Accelerator](../start/experimentation-accelerator-target.md)
   + [Data usage in AI](../start/experiment-accelerator-security.md)
   + [Best practices](../start/experiment-accelerator-best-practices.md)
 + Monitor{#monitor}
