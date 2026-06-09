@@ -67,6 +67,7 @@ To access and monitor your experiments, select your previously configured experi
 The experiment detail page is split into the following section:
 
 * [Experiment Outcome](#experiment-outcome)
+* [Primary metric](#change-primary-metric)
 * [Hypothesis](#hypothesis)
 * [Details](#details)
 * [Opportunities](#opportunities)
@@ -78,6 +79,42 @@ The experiment detail page is split into the following section:
 ![](assets/experiment-monitor-outcome.png)
 
 The **[!UICONTROL Experiment outcome]** gives you a quick view of the winning variation in your experiment.
+
+### Change the primary metric {#change-primary-metric}
+
+>[!AVAILABILITY]
+>
+>Only users with the **[!UICONTROL Manage Experiment Metadata]** permission can change the primary metric.
+
+Changing the primary metric applies to teams that use **[!DNL Customer Journey Analytics]** or **[!DNL Adobe Analytics]** as the reporting source for experiments created in **[!DNL Adobe Target]** or **[!DNL Adobe Journey Optimizer]**.
+
+Keep the following in mind when you set or change the primary metric:
+
+* You import one metric at a time. Your choice is stored as the primary metric for that experiment.
+
+* Updates apply only in Journey Optimizer Experimentation Accelerator. They are not written back to Adobe Target or Adobe Journey Optimizer.
+
+* If your organization uses only Adobe Target as the reporting source, you cannot change the primary metric after the test is published.
+
+To change the primary metric for an existing experiment, follow these steps:
+
+1. From your experiment, click **[!UICONTROL Select Primary Metric]** if none has been assigned or **[!UICONTROL Edit]** if you want to change it.
+
+   ![](assets/primary-metric-1.png)
+
+1. Select a metric that matches the reporting source set when this experiment was created in **[!DNL Adobe Target]** or **[!DNL Adobe Journey Optimizer]**.
+
+   The metrics available to you are determined by the data source configured in **[!DNL Adobe Target]** or **[!DNL Adobe Journey Optimizer]**. For example, if **[!DNL Customer Journey Analytics]** (CJA) was selected as the reporting source in Target, only CJA metrics are available to import. You cannot switch to a metric from a different data source, and you cannot change the primary metric to a native **[!DNL Adobe Target]** metric.
+
+1. Use search to find a metric by name, or use the filter to view metrics already used in active experiments.
+
+   ![](assets/primary-metric-1.png)
+
+1. Save your selection.
+
+When you change the primary metric, previously generated insights and opportunities are cleared and regenerated. During regeneration, the following message is displayed:
+
+`Opportunities are being regenerated based on the selected metric. Updates will appear soon.`
 
 ### Set up {#set-up}
 
